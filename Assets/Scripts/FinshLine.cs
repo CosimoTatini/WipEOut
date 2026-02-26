@@ -1,6 +1,9 @@
 using System.Collections;
 using UnityEngine;
 
+/// <summary>
+/// On trigger enter, it stops the timer and show a TextMeshProUGUI text, and with a Coroutine sets the trigger collider on isTrigger=false
+/// </summary>
 public class FinshLine : MonoBehaviour
 {
     public GameObject winnerText;

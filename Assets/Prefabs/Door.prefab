@@ -14,7 +14,6 @@ GameObject:
   - component: {fileID: 6787286319884806600}
   - component: {fileID: 1352245589549648380}
   - component: {fileID: 3067153727213273315}
-  - component: {fileID: 5568242063383057178}
   m_Layer: 0
   m_Name: Plank
   m_TagString: Untagged
@@ -180,20 +179,6 @@ HingeJoint:
   m_EnablePreprocessing: 1
   m_MassScale: 1
   m_ConnectedMassScale: 1
---- !u!114 &5568242063383057178
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1609328762460335216}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fa348c22bf5970f40ab510d9663746ce, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Door
-  openSpeed: 100
-  switchTime: 1
 --- !u!1 &4836104466331926478
 GameObject:
   m_ObjectHideFlags: 0

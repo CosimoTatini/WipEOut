@@ -4,6 +4,9 @@ using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+/// <summary>
+/// It spawns a UI Timer that is linked to the real Time.Deltime
+/// </summary>
 public class GameTimer : MonoBehaviour
 {
     public static GameTimer Instance;

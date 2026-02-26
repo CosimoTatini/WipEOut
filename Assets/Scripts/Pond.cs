@@ -1,12 +1,11 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+/// <summary>
+/// OnTriggerEnter, when the player gets in the pond, it comes back to the beginning of the level. SceneManager LoadScene reset the scene.
+/// </summary>
 public class Pond : MonoBehaviour
 {
     public Transform spawnPoint;
-    //[SerializeField] PlayerController player;
-    //[SerializeField] GameTimer gameTimer;
-    //[SerializeField] ResetPosition _resetPos;
 
     private void OnTriggerEnter(Collider other)
     {

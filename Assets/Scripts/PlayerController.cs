@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/// <summary>
+/// This class allows the Player to walk,run and jump. It moves in the direction of the Camera visual. The Camera visual is handled by the mouse position.
+/// </summary>
 public class PlayerController : MonoBehaviour
 {
     public float walkSpeed;

@@ -1,5 +1,8 @@
 using UnityEngine;
 
+/// <summary>
+/// This class give a Trampoline like behaviour to a Gameobject. When the Player or antoher object collides, it bounces
+/// </summary>
 public class Trampoline : MonoBehaviour
 {
 
